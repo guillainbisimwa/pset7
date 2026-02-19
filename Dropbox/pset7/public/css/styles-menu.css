@@ -1,0 +1,60 @@
+/**
+ * styles-menu.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+#menu
+{
+   
+    margin:auto;
+    //color:white;
+   
+}
+
+.form1
+{
+    
+    float:left;
+    height:280px;
+    width:200px;
+    border-radius:5px;
+    background-color:rgba(240,240,240,0.9);
+    color:white;
+}
+.hi
+{
+    color:black;
+}
+
+.table
+{
+    float:left;
+    width:900px;
+}
+
+.profile
+{
+    margin-top:15px;
+    margin-left:5px;
+    border-radius:15px 15px 0px 0px;
+    height:75px;
+    width:190px;
+    background:url('../img/profil.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
