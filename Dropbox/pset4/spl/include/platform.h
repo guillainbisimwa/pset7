@@ -40,7 +40,7 @@ string getId(void *ptr);
 
 void createGWindowOp(GWindow gw, double width, double height, GObject top);
 void deleteGWindowOp(GWindow gw);
-void closeOp(GWindow gw);
+void closeGWindowOp(GWindow gw);
 void requestFocusOp(GWindow gw);
 void clearOp(GWindow gw);
 void repaintOp(GWindow gw);
@@ -58,7 +58,7 @@ void createTimerOp(GTimer timer, double delay);
 void deleteTimerOp(GTimer timer);
 void startTimerOp(GTimer timer);
 void stopTimerOp(GTimer timer);
-void pauseOp(double milliseconds);
+void holdOp(double milliseconds);
 void createSoundOp(Sound sound, string filename);
 void deleteSoundOp(Sound sound);
 void playSoundOp(Sound sound);
@@ -131,5 +131,6 @@ void setLabelOp(GObject gobj, string str);
 double getFontAscentOp(GObject gobj);
 double getFontDescentOp(GObject gobj);
 GDimension getGLabelSizeOp(GObject gobj);
+void pauseOp(double milliseconds);
 
 #endif

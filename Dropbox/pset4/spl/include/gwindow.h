@@ -203,8 +203,8 @@ void fillRect(GWindow gw, double x, double y, double width, double height);
 void setColorGWindow(GWindow gw, string color);
 
 /*
- * Function: getColor
- * Usage: color = getColor(gw);
+ * Function: getColorGWindow
+ * Usage: color = getColorGWindow(gw);
  * ----------------------------
  * Returns the current color as a string in the form <code>"#rrggbb"</code>.
  * In this string, the values <code>rr</code>, <code>gg</code>,
@@ -315,8 +315,8 @@ void addAt(GWindow gw, GObject gobj, double x, double y);
 void addToRegion(GWindow gw, GObject gobj, string region);
 
 /*
- * Function: remove
- * Usage: remove(gw, gobj);
+ * Function: removeGWindow
+ * Usage: removeGWindow(gw, gobj);
  * ------------------------
  * Removes the object from its container or region.
  */

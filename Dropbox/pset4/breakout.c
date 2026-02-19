@@ -290,4 +290,4 @@ GObject detectCollision(GWindow window, GOval ball)
 
     // no collision
     return NULL;
-}.
+}
